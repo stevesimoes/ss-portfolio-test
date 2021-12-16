@@ -1,0 +1,161 @@
+	<!doctype html>
+	<html lang="en">
+
+	<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <meta name="description" content="Steve Simoes is an aspiring Graphic Design student at UMass Lowell in eastern Massachusetts. He is available for hire, take a look at his resume." />
+	  <meta name="keywords" content="steve simoes, steve simeos, steve simose, steven simeos, steven simose, steven simoes, stephen simoes, stephen simeos, stephen simose, uml, umass lowell, university of massachusetts lowell, graphic designer, artist, coder, web design, web developer, designer resume, design skills" />
+	  <title>steve simoes portfolio site | contact</title>
+	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+	  <script type="text/javascript" src="js/lightbox.js"></script>
+	  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	  <script type="text/javascript" src="js/additional-methods.min.js"></script>
+	  <script type="text/javascript" src="js/scripts.js"></script>
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700">
+	  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
+	  <link href="css/base.css" media="all" rel="stylesheet" />
+	  <link rel="shortcut icon" href="favicon.ico" />
+	</head>
+
+	<body class="container">
+	  <div id="page-wrapper">
+	    <header>
+	      <div class="row">
+	        <a href="index.html" class="logo"><img src="images/steve-simoes-logo.png" alt="Steve Simoes Portfolio" title="Steve Simoes Portfolio" /></a>
+	        <nav class="bar">
+	          <ul>
+	            <li class="item1"><a href="code.html">portfolio</a>
+	              <ul>
+	                <li><a href="code.html">code</a></li>
+	                <li><a href="design.html">design</a></li>
+	                <li><a href="video.html">video</a></li>
+	              </ul>
+	            </li>
+	            <li class="item2"><a href="hire-me.html">hire me</a></li>
+	          </ul>
+	        </nav>
+	      </div>
+	    </header>
+	    <main role="main">
+	      <section class="hire-me">
+	        <h1>hire me</h1>
+	        <div class="hire-me-grid">
+	          <div class="about">
+	            <img src="images/steve-simoes.png" alt="Steve Simoes" title="Steve Simoes" />
+	            <h2>Hi! My name is Steve</h2>
+	            <p>I'm a graphic designer and an apspiring front-end web developer that recently graduated from the University of Massachusetts Lowell.</p>
+	            <a href="resume-steve-simoes.pdf" target="_blank" class="resumeLink">Download Resume</a>
+	          </div>
+	          <div class="resume">
+	            <h3>Experience</h3>
+	            <span class="job-title">Digital Design Intern</span>
+	            <span class="year">2017-2018</span><br>
+	            <span><a href="index.html" class="iRobot-logo"><img src="images/iRobot_Logo_Green.png" alt="iRobot Logo" /></a></span>
+	            <span class="work">Bedford, MA</span>
+	            <span>
+	              <p>• Created digital banner ads, emails, homepage and storefront campaigns for North America and EMEA.</p>
+	            </span>
+	            <h3>Skills</h3>
+	            <h4>Expert in:</h4>
+	            <span class="skills-expert">
+	              <p> • Creating branding identities using Illustrator, Photoshop and InDesign.</p>
+	              <p>• Designing and creating prototype for apps and websites.</p>
+	            </span>
+	            <h4>Proficient in:</h4>
+	            <span class="skills-proficient">
+	              <p> • UI/UX web design and development, HTML5, CSS3, Dreamweaver, Bootstrap, WordPress and Jira.</p><br>
+	              <h5>Awareness and some working knowledge of SEO, PHP, XHTML, XML, JavaScript, jQuery, Node.js and React.</h5>
+	            </span>
+	            <h3>Education</h3>
+	            <span class="bfa">BFA</span> <span class="bfa-type">Concentration: Web Design</span>
+	            <span class="grad-year">2019</span><br>
+	            <span class="school">University of Massachusetts Lowell</span>
+	          </div>
+	          <div class="form">
+	            <h2>contact</h2>
+	            <ul class="social">
+	              <li><a href="https://www.linkedin.com/pub/steve-simoes/92/4b0/824" target="_blank" class="linkedin-icon">linkedin</a></li>
+	              <li><a href="https://github.com/stevesimoes" target="_blank" class="github-icon">github</a></li>
+	            </ul>
+	            <a href="mailto:stevesimoes1@gmail.com" class="email-link">stevesimoes1@gmail.com</a><br>
+	            <hr>
+	            <p class="success">This is the success message placeholder</p>
+	            <p class="error">This is the error message placeholder</p>
+	            <form action="hire-me-email.php" name="applicationForm" id="applicationForm" method="post">
+	              <input type="hidden" value="standard" name="formType" />
+	              <table class="contactForm">
+	                <tr>
+	                  <td><label for="name">name <span>*</span></label>
+	                    <input type="text" class="required" name="name" /></td>
+	                </tr>
+	                <tr>
+	                  <td><label for="emailAddress">email address <span>*</span></label>
+	                    <input type="text" class="required email" name="emailAddress" />
+	                    <span class="example">example: yourname@domain.com</span></td>
+	                </tr>
+	                <tr>
+	                  <td><label for="message">Message</label>
+	                    <textarea name="message"></textarea></td>
+	                </tr>
+	                <tr>
+	                  <td class="leftCol"><span class="required">* Required</span>
+	                    <a href="javascript:void(0)" class="submitLink submitBtn">Submit</a></td>
+	                </tr>
+	              </table>
+	              <script type="text/javascript">
+	                var qs = queryString('fail');
+	                if (qs == "totalfail") {
+	                  $('p.error').html('Sorry there was an error while sending you message, please contact <a href="mailto:designer@stevesimoes.com">designer@stevesimoes.com</a>.').show();
+	                }
+	                if (qs == "success") {
+	                  $('p.success').html('Your email has been sent. I will respond within a few days.').show();
+	                  $('form').hide();
+	                }
+	                //alert(qs.get(name[, default_value]));
+
+	                $('#applicationForm').keypress(function(event) {
+	                  $('p.error').hide();
+	                  if (event.keyCode == '13') {
+	                    if ($("#applicationForm").valid()) {
+	                      document.doSubmit = function() {
+	                        document.applicationForm.submit();
+	                      }
+	                      setTimeout("document.doSubmit();", 50);
+	                    }
+	                  }
+	                });
+	                $("#applicationForm").validate();
+	                $('a.submitBtn').click(function() {
+	                  $('p.error').hide();
+	                  if ($("#applicationForm").valid()) {
+	                    document.doSubmit = function() {
+	                      document.applicationForm.submit();
+	                    }
+	                    setTimeout("document.doSubmit();", 50);
+	                  }
+	                });
+
+	              </script>
+	            </form>
+	          </div>
+	        </div>
+	      </section>
+	    </main>
+	    <footer>
+	      <div class="footer-row">
+	        <p class="copyright">&copy; 2020 Steve Simoes </p>
+	        <p class="email">
+	          <a href="mailto:stevesimoes1@gmail.com">stevesimoes1@gmail.com</a>
+	        </p>
+	        <ul class="social">
+	          <li><a href="https://www.linkedin.com/pub/steve-simoes/92/4b0/824" target="_blank" class="linkedin-icon">linkedin</a></li>
+	          <li><a href="https://github.com/stevesimoes" target="_blank" class="github-icon">github</a></li>
+	        </ul>
+	      </div>
+	    </footer>
+	  </div>
+	</body>
+
+	</html>
